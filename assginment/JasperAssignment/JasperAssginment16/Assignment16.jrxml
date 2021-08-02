@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Assignment16" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a8441d27-aca3-4a07-8681-e9061f1776d6">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band height="127">
+			<image hAlign="Center" vAlign="Middle">
+				<reportElement x="193" y="9" width="169" height="114" forecolor="#FFFFFF" uuid="1b4c535b-d914-4f9a-afac-7d61d73b7386"/>
+				<imageExpression><![CDATA["C:/Users/Raj/Desktop/EduCloud.png"]]></imageExpression>
+			</image>
+		</band>
+	</background>
+	<title>
+		<band height="60">
+			<staticText>
+				<reportElement x="60" y="0" width="440" height="50" uuid="27c00d7a-caa9-439c-b1b6-7ec09841ed60"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="25"/>
+				</textElement>
+				<text><![CDATA[University Details]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="301" splitType="Stretch">
+			<staticText>
+				<reportElement x="60" y="40" width="440" height="260" uuid="aba6a474-b8c4-4f2f-af39-f3de9cedc834"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman" size="16"/>
+				</textElement>
+				<text><![CDATA["The University of Mumbai (known earlier as University of Bombay) is one of the oldest and premier Universities in India. It was established in 1857 consequent upon ""Wood's Education Dispatch, and it is one amongst the first three Universities in India. As a sequel to the change in the name of the city from Bombay to Mumbai, the name of the University has been changed from University of Bombay to University of Mumbai, vide notification issued by the Government of Maharashtra and published in the Government Gazette dated 4th September, 1996. The University was accorded 5 star status in 2001 & 'A' grade status in April 2012 by the National Assessment and Accreditation Council (NAAC). It has been granted University with Potential for Excellence (UPE) status by UGC and PURSE Scheme by DST"]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

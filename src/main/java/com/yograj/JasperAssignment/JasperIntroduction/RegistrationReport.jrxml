@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="RegistrationReport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="188dff77-d45e-4566-99d8-58797e4e4700">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="128" splitType="Stretch">
+			<staticText>
+				<reportElement x="17" y="10" width="520" height="54" uuid="e37a5e4b-3877-47bf-be20-846809261d6b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="25"/>
+				</textElement>
+				<text><![CDATA[S.N.D College of Engineering & Research Center,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="90" y="70" width="350" height="30" uuid="8ed80fcb-d40f-4dff-9e0a-4ce9f89596b2"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="16"/>
+				</textElement>
+				<text><![CDATA[Bahbulgaon, Yeola Tal. Yeola Dist. Nashik - 423402 ]]></text>
+			</staticText>
+		</band>
+	</title>
+	<detail>
+		<band height="258" splitType="Stretch">
+			<staticText>
+				<reportElement x="30" y="10" width="100" height="20" uuid="081725ec-7f99-4ffb-98f0-b1c4164eb847"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Student Name :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="40" width="100" height="20" uuid="38018635-f3c5-403e-99cb-9673a1d27c2f"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Father Name :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="68" width="100" height="20" uuid="2722ec46-6561-44b5-b554-0e0798861191"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Mother Name :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="94" width="100" height="20" uuid="54785283-6b5e-4efa-9e58-c8c2450f3168"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Class :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="122" width="100" height="20" uuid="3f6de99c-5bc8-43b9-972a-66a7761e1c83"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[DOB :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="151" width="100" height="20" uuid="a97d6070-7e11-47b6-a6db-318c29d7969e"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Roll-No :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="30" y="182" width="100" height="20" uuid="62af6197-4883-4fa1-924a-233d01929b9f"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Admission No :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="10" width="100" height="20" uuid="7ed7fdd0-855b-4b32-832f-87fceb57d441"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Yograj Gadekar]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="40" width="100" height="20" uuid="a5d0cb05-af0a-4087-971d-98427318705d"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[A. K. Gadekar]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="68" width="100" height="20" uuid="40fc5be3-57bc-49c8-b64b-4a6144f24095"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[C.A.Gadekar]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="94" width="100" height="20" uuid="fd8c47c6-69e3-4dfc-8ab0-2afbb019c3b9"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[BE-IT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="122" width="100" height="20" uuid="df0e0740-cfff-419b-9a4d-62be1d496d4f"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[10-02-1996]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="151" width="100" height="20" uuid="99409f99-77d6-4ec4-b9bd-9c904ba5bf04"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[22]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="150" y="182" width="100" height="20" uuid="b1e91df8-eb8b-4e0d-9d06-a73fc75fa936"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[DSE18718212B]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.16.0.final using JasperReports Library version 6.16.0-48579d909b7943b64690c65c71e07e0b80981928  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="demo" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="876fe86e-a21a-46aa-9036-4e7dd8c0253d">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="randomText" class="java.lang.String"/>
+	<field name="imageURL" class="java.lang.String"/>
+	<field name="clgname" class="java.lang.String"/>
+	<field name="name" class="java.lang.String"/>
+	<field name="roll_no" class="java.lang.String"/>
+	<field name="div" class="java.lang.String"/>
+	<field name="admi_id" class="java.lang.String"/>
+	<field name="cource" class="java.lang.String"/>
+	<field name="date" class="java.lang.String"/>
+	<field name="key0" class="java.lang.String"/>
+	<field name="key1" class="java.lang.String"/>
+	<field name="key2" class="java.lang.String"/>
+	<field name="value0" class="java.lang.String"/>
+	<field name="value1" class="java.lang.String"/>
+	<field name="value2" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="118" splitType="Stretch">
+			<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.FreeLayout"/>
+			<image scaleImage="FillFrame" hAlign="Center" vAlign="Middle">
+				<reportElement x="16" y="8" width="164" height="92" uuid="3bcb1202-5bca-4577-9744-bd2fcfbec4ba"/>
+				<imageExpression><![CDATA[$F{imageURL}]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement x="155" y="8" width="345" height="92" uuid="3d01d376-1b21-4a7e-9f6b-ab843adad582"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="19" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{clgname}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="85">
+			<staticText>
+				<reportElement x="192" y="21" width="70" height="51" uuid="4b1c18f6-8054-4915-8725-58ab57d747a3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Division :
+
+Admission Id : ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="360" y="23" width="55" height="51" uuid="18df27be-b4f8-47ca-9056-979082119de9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cources : 
+
+Date :]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="80" y="20" width="80" height="30" uuid="47b94b0a-f6e0-4200-ba0f-7f378766bcec"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="77" y="45" width="80" height="30" uuid="ec24cfc8-edaf-4770-af3d-a59bc57b6bf3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{roll_no}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="270" y="20" width="80" height="30" uuid="4aa5520b-fda7-46bb-84e5-e212b1ccf919"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{div}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="270" y="44" width="80" height="30" uuid="512c8000-17f6-4eb6-87e7-3e142a344027"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{admi_id}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="419" y="20" width="76" height="30" uuid="b79949bc-6ec5-443e-92d1-7213529ce09b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cource}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="415" y="48" width="80" height="30" uuid="3dd04256-bbc7-48bc-a07b-3f076f5e3abc"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="12" y="20" width="70" height="51" uuid="f57c67b9-f5df-4126-8da4-4f35a8bbc8ed"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Name :
+
+Roll No : ]]></text>
+			</staticText>
+		</band>
+		<band height="443">
+			<textField textAdjust="StretchHeight">
+				<reportElement x="22" y="40" width="473" height="290" uuid="bd857cb0-64b2-4cb6-a408-f898c425c989"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Top" markup="styled">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{randomText}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="148">
+			<line>
+				<reportElement x="12" y="70" width="118" height="1" backcolor="#080606" uuid="0469c2bb-7950-48c1-89af-ab04faccd18f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+			</line>
+			<line>
+				<reportElement x="205" y="69" width="121" height="1" backcolor="#0F0C0B" uuid="157f3c9b-9086-4d2f-b0c1-359095437087"/>
+			</line>
+			<line>
+				<reportElement x="393" y="70" width="135" height="1" backcolor="#0D0B0B" uuid="668f23ed-0aeb-4b31-80af-be40d68c3587"/>
+			</line>
+			<textField>
+				<reportElement x="16" y="20" width="104" height="30" uuid="447139f4-630a-4088-ac0a-a6fe8ea93099"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{value0}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="16" y="80" width="104" height="30" uuid="3ef9241f-5088-4458-aea6-a79bf7e6a49f"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{key0}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="213" y="20" width="104" height="30" uuid="f681062f-c5ad-4976-afbc-91cb399a3e9b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{value1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="213" y="80" width="104" height="30" uuid="96a33e3b-fbd3-4eac-9f4e-c6c41f7e0439"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{key1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="404" y="20" width="104" height="30" uuid="8f1b0afd-52f2-4e80-8c31-f0efc24c6e37"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{value2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="403" y="80" width="104" height="30" uuid="cbffa40f-d284-4b6e-8b87-6cb0514c707d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{key2}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
